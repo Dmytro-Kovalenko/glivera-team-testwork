@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?367u1c');
+  src:  url('fonts/icomoon.eot?367u1c#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?367u1c') format('truetype'),
+    url('fonts/icomoon.woff?367u1c') format('woff'),
+    url('fonts/icomoon.svg?367u1c#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-attention:before {
+  content: "\e900";
+}
+.icon-triangle:before {
+  content: "\e905";
+}
+.icon-arrow:before {
+  content: "\e906";
+}
+.icon-mastercard .path1:before {
+  content: "\e909";
+  color: rgb(136, 144, 153);
+}
+.icon-mastercard .path2:before {
+  content: "\e90a";
+  margin-left: -1.26953125em;
+  color: rgb(136, 144, 153);
+  opacity: 0.4;
+}
+.icon-mastercard .path3:before {
+  content: "\e90b";
+  margin-left: -1.26953125em;
+  color: rgb(136, 144, 153);
+}
+.icon-mastercard .path4:before {
+  content: "\e90c";
+  margin-left: -1.26953125em;
+  color: rgb(136, 144, 153);
+  opacity: 0.65;
+}
+.icon-mastercard .path5:before {
+  content: "\e90d";
+  margin-left: -1.26953125em;
+  color: rgb(136, 144, 153);
+}
+.icon-amex .path1:before {
+  content: "\e90e";
+  color: rgb(136, 144, 153);
+}
+.icon-amex .path2:before {
+  content: "\e90f";
+  margin-left: -1.0185546875em;
+  color: rgb(50, 54, 66);
+}
+.icon-amex .path3:before {
+  content: "\e910";
+  margin-left: -1.0185546875em;
+  color: rgb(136, 144, 153);
+}
+.icon-amex .path4:before {
+  content: "\e911";
+  margin-left: -1.0185546875em;
+  color: rgb(136, 144, 153);
+}
+.icon-bitcoin:before {
+  content: "\e914";
+  color: #889099;
+}
+.icon-okpay:before {
+  content: "\e915";
+  color: #889099;
+}
+.icon-arrow-right:before {
+  content: "\e918";
+}
+.icon-close:before {
+  content: "\e919";
+  color: #889099;
+}
+.icon-facebook:before {
+  content: "\e91a";
+}
+.icon-twitter:before {
+  content: "\e91b";
+}
+.icon-googleplus:before {
+  content: "\e91c";
+}
+.icon-linkedin .path1:before {
+  content: "\e91d";
+  color: rgb(50, 54, 66);
+}
+.icon-linkedin .path2:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-reddit .path1:before {
+  content: "\e91f";
+  color: rgb(50, 54, 66);
+}
+.icon-reddit .path2:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-youtube .path1:before {
+  content: "\e921";
+  color: rgb(50, 54, 66);
+}
+.icon-youtube .path2:before {
+  content: "\e922";
+  margin-left: -1.4482421875em;
+  color: rgb(255, 255, 255);
+}

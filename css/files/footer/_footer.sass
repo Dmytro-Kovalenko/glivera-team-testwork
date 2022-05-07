@@ -1,0 +1,168 @@
+.footer
+  padding: 84px 0 90px
+  background-color: $c-white
+  @media (max-width: 991px)
+    padding: 44px 0 49px
+
+  &-title
+    font: 400 27px/33px $ff-title
+    color: $c-dark
+    letter-spacing: 1px
+    transition: 0.4s
+    @media (max-width: 991px)
+      font: 400 23px/27px $ff-title
+    @media (max-width: 768px)
+      font: 400 18px/22px $ff-title
+      letter-spacing: unset
+
+    &:hover
+      opacity: 0.8
+
+  &-inner
+    margin-top: 58px
+    display: flex
+    @media (max-width: 700px)
+      flex-direction: column
+      margin-top: 54px
+
+  &-left
+    display: grid
+    grid-template-columns: repeat(3,1fr)
+    grid-gap: 4px 0
+    width: 601px
+    height: fit-content
+    @media (max-width: 991px)
+      grid-template-columns: repeat(2,1fr)
+      grid-gap: 35px 20px
+      width: 370px
+    @media (max-width: 700px)
+      width: 100%
+
+  &-right
+    width: calc(100% - 601px)
+    @media (max-width: 991px)
+      width: calc(100%  - 370px)
+    @media (max-width: 700px)
+      width: 100%
+      margin-top: 40px
+
+  &-menu
+    &:nth-child(1)
+      grid-row: span 2
+
+    &__title
+      font: 500 14px/18px $ff-text
+      color: $c-text
+      text-transform: uppercase
+      letter-spacing: 1px
+      margin-bottom: 20px
+
+    &__list
+      li
+        &:not(:last-child)
+          margin-bottom: 10px
+          @media (max-width: 700px)
+            margin-bottom: 9px
+
+        a
+          font: 400 14px/22px $ff-text
+          color: $c-grey
+          transition: 0.4s
+          &:hover
+            opacity: 0.8
+
+  &-description
+    &__title
+      font: 500 14px/18px $ff-text
+      color: $c-text
+      letter-spacing: 1px
+      text-transform: uppercase
+      margin-bottom: 20px
+
+    p
+      &:not(.footer-description__text)
+        font: 400 12px/16px $ff-text
+        color: $c-grey
+        margin-bottom: 16px
+
+    &__text
+      font: 400 14px/22px $ff-text
+      color: $c-grey
+      margin-bottom: 20px
+
+  &-social
+    margin-top: 40px
+    @media (max-width: 768px)
+      margin-top: unset
+
+    &__title
+      font: 500 14px/18px $ff-text
+      color: $c-text
+      letter-spacing: 1px
+      text-transform: uppercase
+      margin-bottom: 26px
+
+    &__list
+      display: flex
+      align-items: center
+      @media (max-width: 991px)
+        flex-wrap: wrap
+        gap: 31px
+      @media (max-width: 768px)
+        gap: 24px 28px
+
+      li
+        &:not(:last-child)
+          margin-right: 31px
+          @media (max-width: 991px)
+            margin-right: unset
+
+        a
+          transition: 0.4s
+          &:hover
+            opacity: 0.8
+
+      .facebook a:before
+        content: '\e91a'
+        font-family: icomoon
+        display: block
+        font-size: 28px
+        color: $c-text
+
+      .twitter a:before
+        content: '\e91b'
+        font-family: icomoon
+        display: block
+        font-size: 23px
+        color: $c-text
+
+      .google a:before
+        content: '\e91c'
+        font-family: icomoon
+        display: block
+        font-size: 22px
+        color: $c-text
+
+      .linkedin a:before
+        content: ''
+        display: block
+        width: 28px
+        height: 28px
+        background: url("../img/svg/20-linkedin.svg") no-repeat center
+        background-size: cover
+
+      .reddit a:before
+        content: ''
+        display: block
+        width: 30px
+        height: 30px
+        background: url("../img/svg/21-reddit.svg") no-repeat center
+        background-size: cover
+
+      .youtube a:before
+        content: ''
+        display: block
+        width: 41px
+        height: 29px
+        background: url('../img/svg/22-youtube.svg') no-repeat center
+        background-size: cover

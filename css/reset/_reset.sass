@@ -1,0 +1,117 @@
+// Обнуление стилей
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button
+	margin: 0
+	padding: 0
+	border: 0
+	font-size: 100%
+	-webkit-tap-highlight-color: transparent !important
+	outline: 0 !important
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+body
+	background-color: $c-white
+	margin: 0
+	padding: 0
+	font-family: $ff-text
+	min-height: 100%
+	position: relative
+	font-size: 16px
+	line-height: 1
+
+	overflow-x: hidden
+	&.active
+		overflow: hidden
+
+.container
+	width: 100%
+	max-width: 1240px
+	margin: 0 auto
+	padding: 0 20px
+
+input, textarea
+	border: 0
+	outline: 0
+	resize: none
+	color: inherit
+	cursor: pointer
+	&:focus
+		outline: 0 !important
+
+input[type="submit"], input[type="button"]
+	-webkit-appearance: none
+	cursor: pointer
+	border: 0
+
+input[type="submit"]
+	&:focus
+		border: 0
+		border-color: transparent
+		outline: 0 !important
+
+input[type="button"]
+	&:focus
+		border: 0
+		outline: none
+
+ol, ul
+	list-style: none
+	margin: 0
+	padding: 0
+
+	li
+		line-height: 1
+
+a
+	color: #222
+	display: inline-block
+	cursor: pointer
+	text-decoration: unset
+	&:hover
+		text-decoration: none
+
+html
+	height: 100%
+
+img
+	display: block
+	max-width: 100%
+	height: auto
+
+address
+	font-style: normal
+
+// Конец обнуление стилей
+
+.default-btn
+	display: flex
+	align-items: center
+	justify-content: center
+	border: 1px solid $c-green
+	border-radius: 30px
+	font: 500 14px/1 $ff-text
+	color: $c-green
+	letter-spacing: 0.8px
+	background: $c-white
+	transition: 0.4s
+	padding: 13px 20px 11px
+	text-transform: uppercase
+	cursor: pointer
+
+	&:hover
+		background: $c-green
+		color: $c-white
+
+	&--colored
+		background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%)
+		color: $c-white
+		&:hover
+			background: $c-white
+			color: $c-green
+
+h1
+	font: 300 24px/34px $ff-text
+	color: $c-dark-bg
